@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    background-color: #555555;
+}
+
+#menu-site {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: 2px solid;
+}
+
+.menu-site-elem {
+    float: left;
+}
+
+.menu-site-elem a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-site-elem a:hover {
+    background-color: #111;
+}
+
+footer {
+    text-align: center;
+}
+
+.main-form {
+    text-align: center;
+}
+
+.field :last-child{
+    margin-bottom: 20px;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    padding: 10px;
+
+    text-decoration: none;
+    color: initial;
+}
+
+.body-page {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.calc-part, .img-body, .contacts {
+    text-align: center;
+}
+
+
+.loc-info>ul>li {
+    margin: 10px;
+}
+
+.loc-img {
+    float: right;
+}
+
+.menu-head {
+    display: inline-block;
+}
+
+.menu-head>h1 {
+    text-align: center;
+}
